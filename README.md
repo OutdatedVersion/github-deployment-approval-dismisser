@@ -7,6 +7,10 @@ notifications sent from GitHub Environment's ["Required reviewers"](https://docs
 
 Once the notifications page (https://github.com/notifications) loads, the script
 will select the relevant visible notifications then dismiss them as a batch. If you
-have many pages of these, you'll need to refresh the page to trigger the script again.
+have many pages of these, you'll need to refresh the page to trigger the
+script again.
+
+To install, copy the script's contents into Tampermonkey after
+hitting "Create a new script" or you can import it from the raw text GitHub URL.
 
 There is an [open discussion](https://github.com/orgs/community/discussions/14564) with GitHub to natively support silencing these notifications though it's been lingering for a while.
